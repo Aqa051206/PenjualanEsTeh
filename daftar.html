@@ -1,0 +1,69 @@
+<html>
+    <head>
+        <title>Daftar</title>
+        <link rel="icon" href="LogoTeh.png" sizes="20x20">
+        <style>
+             .logotulisan {
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+            gap: 20px;
+            padding-bottom: 10px;
+            }
+
+            .container {
+                padding: 20px;
+                width: 300px;
+                border-radius: 8px;
+                margin-left: 440px;
+                background-color: white;
+                border: 1px solid black;
+                
+            }
+
+        </style>
+    </head>
+    <body>
+        
+        <div class="container">
+            <div class="logotulisan" style="margin-left: 25px;">
+                <img src="LogoTeh.png" alt="Logo" height="75%" width="30%">
+                <h1 style="font-family: 'Times New Roman', Times, serif;">EsTeh AYA</h1>
+            </div>
+            <form>
+            <h2 style="text-align: center; font-family: 'Times New Roman', Times, serif;margin-left: 30px;">Akun Baru</h2> 
+            <table style="margin-left: 30px;">
+                <tr>
+                    <td><label for="nama">Nama Akun</label></td>
+                    <td>:</td>
+                    <td><input type="text" name="nama" id="nama"></td>
+                </tr>
+                <tr>
+                    <td><label for="email">Email</label></td>
+                    <td>:</td>
+                    <td><input type="email" name="email" id="email"></td>
+                </tr>
+                <tr>
+                    <td><label for="password">Kata Sandi</label></td>
+                    <td>:</td>
+                    <td><input type="password" name="password" id="password"></td>
+                </tr>
+                <tr>
+                    <td><label for="hp">No.HP</label></td>
+                    <td>:</td>
+                    <td><input type="tel" name="hp" id="hp"></td>
+                </tr>
+                <tr>
+                    <td><label for="alamat">Alamat</label></td>
+                    <td>:</td>
+                    <td><textarea name="alamat" id="alamat"></textarea></td>
+                </tr>
+                <tr>
+                    <td colspan="3"> <br> <br><input type="submit" name="daftar" value="Daftar" style="width: 225px; height: 25px; background-color: #87c346; border-radius: 5px;
+                    margin-left: 35px; border: 0px solid;"> </td>
+                </tr>
+            </table>
+            </form>
+        </div>
+    </body>
+</html>
