@@ -112,35 +112,6 @@ main.content p,
 .content p {
     margin-bottom: 50px;
 }
-.menu-grid {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    gap: 30px;
-}
-
-
-.item {
-    text-align: center;
-    width: 700px;
-}
-
-.item1, .item2 {
-    width: 100%;
-    max-width: 700px; /* atau sesuai kebutuhan */
-    height: auto;
-    border-radius: 30px;
-    margin: 30px auto; /* Gantikan margin-left */
-    display: block;
-}
-
-
-.item p {
-    margin-top: 20px;
-    font-weight: bold;
-}
-
 
 main.content {
     flex: 1;
@@ -165,24 +136,73 @@ main.content::before {
     z-index: -1;
 }
 
-.hero {
-            margin-top: 40px;
+.header {
             text-align: center;
+            margin: 40px 0 20px;
         }
 
-.hero h2 {
-            font-size: 28px;
-            margin-bottom: 10px;
+        .header a.button {
+            padding: 10px 16px;
+            background: #87c346;
+            color: white;
+            text-decoration: none;
+            border-radius: 6px;
+            font-size: 14px;
         }
 
-.hero p {
-            font-size: 16px;
-            color: #333;
-            max-width: 600px;
-            margin-left: 300px;
+        .header a.button:hover {
+            background: rgb(110, 33, 136);
         }
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* atau space-between */
+    gap: 20px;
+    padding: 20px;
+}
 
-
-* {
+.pembeli-card {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    width: 280px;
+    padding: 15px 20px;
     box-sizing: border-box;
+    margin: 10px;
+}
+
+.pembeli-card h3 {
+    margin-bottom: 6px;
+    color: #414b8b;
+    font-size: 17px;
+}
+
+.pembeli-card p {
+    margin: 4px 0;
+    font-size: 14px;
+    color: #333;
+}
+
+.pembeli-card p strong {
+    font-weight: bold;
+    color: #000;
+}
+
+.pembeli-card .action {
+    margin-top: 10px;
+}
+
+.pembeli-card .action a {
+    display: inline-block;
+    padding: 6px 12px;
+    font-size: 13px;
+    border-radius: 5px;
+    color: white;
+    background-color: #dc3545;
+    text-decoration: none;
+}
+
+.pembeli-card .action a:hover {
+    opacity: 0.85;
 }

@@ -112,35 +112,6 @@ main.content p,
 .content p {
     margin-bottom: 50px;
 }
-.menu-grid {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    gap: 30px;
-}
-
-
-.item {
-    text-align: center;
-    width: 700px;
-}
-
-.item1, .item2 {
-    width: 100%;
-    max-width: 700px; /* atau sesuai kebutuhan */
-    height: auto;
-    border-radius: 30px;
-    margin: 30px auto; /* Gantikan margin-left */
-    display: block;
-}
-
-
-.item p {
-    margin-top: 20px;
-    font-weight: bold;
-}
-
 
 main.content {
     flex: 1;
@@ -165,24 +136,54 @@ main.content::before {
     z-index: -1;
 }
 
-.hero {
-            margin-top: 40px;
-            text-align: center;
-        }
-
-.hero h2 {
-            font-size: 28px;
-            margin-bottom: 10px;
-        }
-
-.hero p {
-            font-size: 16px;
-            color: #333;
-            max-width: 600px;
-            margin-left: 300px;
-        }
-
-
-* {
+.kotak-isian {
+    width: 50%;
+    height: 25%;    
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
     box-sizing: border-box;
+    margin-left: 350px;
+    margin-top: 5px;
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
 }
+
+label {
+    margin-left: 350px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+header {
+    text-align: center;
+    margin-left: 50px;
+}
+
+.profil {
+    margin-left: 485px;
+    display: flex;
+    gap: 5px;
+}
+
+.profil img {
+    width: 130px;
+    height: 130px;
+}
+
+.edit button {
+    background-color: #87c346; /* hijau terang */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 6px 12px;
+    cursor: pointer;
+    font-size: 14px;
+    margin-top: 50px;
+    transition: background-color 0.3s ease;
+}
+.edit button:hover {
+    background-color: #218838; /* efek hover hijau gelap */
+}
+
+

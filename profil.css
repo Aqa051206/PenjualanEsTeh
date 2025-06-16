@@ -41,6 +41,15 @@ html, body {
     margin-top: 5px;
 }
 
+.avatar {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%; /* Membuat gambar bundar */
+    object-fit: cover;  /* Memastikan gambar tidak melar */
+    border: 2px solid #444;
+    margin-bottom: 16px;
+}
+
 .profile img {
     width: 60px;
     height: 60px;
@@ -112,35 +121,6 @@ main.content p,
 .content p {
     margin-bottom: 50px;
 }
-.menu-grid {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    gap: 30px;
-}
-
-
-.item {
-    text-align: center;
-    width: 700px;
-}
-
-.item1, .item2 {
-    width: 100%;
-    max-width: 700px; /* atau sesuai kebutuhan */
-    height: auto;
-    border-radius: 30px;
-    margin: 30px auto; /* Gantikan margin-left */
-    display: block;
-}
-
-
-.item p {
-    margin-top: 20px;
-    font-weight: bold;
-}
-
 
 main.content {
     flex: 1;
@@ -165,24 +145,67 @@ main.content::before {
     z-index: -1;
 }
 
-.hero {
-            margin-top: 40px;
-            text-align: center;
-        }
 
-.hero h2 {
-            font-size: 28px;
-            margin-bottom: 10px;
-        }
+header {
+    text-align: center;
+    margin-left: 50px;
+}
 
-.hero p {
-            font-size: 16px;
-            color: #333;
-            max-width: 600px;
-            margin-left: 300px;
-        }
+.profil {
+    margin-left: 485px;
+    display: flex;
+    gap: 5px;
+}
+
+.profil img {
+    width: 130px;
+    height: 130px;
+}
+
+.profil .edit{
+    padding-top: 50px;
+    font-size: 25px;
+}
+
+label {
+    margin-left: 350px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+.kotak-tampilan {
+    border: 1px solid #ccc;
+    margin-left: 350px;
+    padding: 10px;
+    margin-top: 5px;
+    background-color: #f9f9f9;
+    border-radius: 4px;
+    color: #555;
+    width: 50%;
+    height: 25%;
+}
+
+.edit button {
+    background-color: #87c346; /* hijau terang */
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 12px 20px; /* Ukuran lebih besar */
+    cursor: pointer;
+    font-size: 18px; /* Perbesar font */
+    margin-top: 8px;
+    transition: background-color 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.15); /* Tambahkan efek bayangan */
+    width: 35px;
+    height: 30px;
+}
+
+.edit button:hover {
+    background-color: #5c822a; /* efek hover hijau lebih gelap */
+}
 
 
-* {
-    box-sizing: border-box;
+h1 {
+    color: #4c693e;
+    margin-bottom: 10px;
 }

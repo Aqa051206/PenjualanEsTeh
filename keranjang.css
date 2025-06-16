@@ -112,35 +112,6 @@ main.content p,
 .content p {
     margin-bottom: 50px;
 }
-.menu-grid {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    gap: 30px;
-}
-
-
-.item {
-    text-align: center;
-    width: 700px;
-}
-
-.item1, .item2 {
-    width: 100%;
-    max-width: 700px; /* atau sesuai kebutuhan */
-    height: auto;
-    border-radius: 30px;
-    margin: 30px auto; /* Gantikan margin-left */
-    display: block;
-}
-
-
-.item p {
-    margin-top: 20px;
-    font-weight: bold;
-}
-
 
 main.content {
     flex: 1;
@@ -165,24 +136,110 @@ main.content::before {
     z-index: -1;
 }
 
-.hero {
-            margin-top: 40px;
-            text-align: center;
-        }
+main {
+  padding: 20px;
+  flex: 1;
+}
 
-.hero h2 {
-            font-size: 28px;
-            margin-bottom: 10px;
-        }
+h1 {
+  text-align: center;
+  color: #4c693e;
+  margin-bottom: 30px;
+}
 
-.hero p {
-            font-size: 16px;
-            color: #333;
-            max-width: 600px;
-            margin-left: 300px;
-        }
+.wrapper {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
 
+.keranjang-item {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  background-color: #fff;
+  margin-bottom: 15px;
+  padding: 15px;
+  border-radius: 10px;
+}
 
-* {
-    box-sizing: border-box;
+.keranjang-item img {
+  width: 80px;
+  height: 80px;
+  border-radius: 10px;
+}
+
+.keranjang-item .info {
+  flex: 1;
+}
+
+.hapus-btn {
+  padding: 8px 12px;
+  background-color: #d9534f;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.hapus-btn:hover {
+  background-color: #c9302c;
+}
+
+.tombol-checkout-container {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.tombol-checkout-container button {
+  background-color: #87c346;
+  color: white;
+  padding: 12px 25px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.tombol-checkout-container button:hover {
+  background-color: #87c346;
+}
+
+.payment-form {
+  margin-top: 30px;
+}
+
+.payment-form input,
+.payment-form textarea,
+.payment-form select {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  padding: 10px;
+  width: 100%;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.payment-form button {
+  background-color: #87c346;
+  color: white;
+  padding: 12px 25px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.payment-form button:hover {
+  background-color: #87c346;
+}
+
+.kosong {
+  text-align: center;
+  font-style: italic;
+  color: #999;
+}
+
+h3 {
+  color: #4c693e;
 }

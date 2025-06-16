@@ -112,35 +112,6 @@ main.content p,
 .content p {
     margin-bottom: 50px;
 }
-.menu-grid {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    gap: 30px;
-}
-
-
-.item {
-    text-align: center;
-    width: 700px;
-}
-
-.item1, .item2 {
-    width: 100%;
-    max-width: 700px; /* atau sesuai kebutuhan */
-    height: auto;
-    border-radius: 30px;
-    margin: 30px auto; /* Gantikan margin-left */
-    display: block;
-}
-
-
-.item p {
-    margin-top: 20px;
-    font-weight: bold;
-}
-
 
 main.content {
     flex: 1;
@@ -165,24 +136,76 @@ main.content::before {
     z-index: -1;
 }
 
-.hero {
-            margin-top: 40px;
-            text-align: center;
+.form-wrapper {
+            background-color: rgba(255, 255, 255, 0.9);
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+            max-width: 450px;
+            margin: 0 auto;
         }
 
-.hero h2 {
-            font-size: 28px;
+        .form-wrapper h1 {
+            color: #4c693e;
             margin-bottom: 10px;
         }
 
-.hero p {
-            font-size: 16px;
-            color: #333;
-            max-width: 600px;
-            margin-left: 300px;
+        .form-wrapper label {
+            font-weight: bold;
+            display: block;
+            margin-top: 15px;
         }
 
+        .form-wrapper input[type="text"],
+        .form-wrapper input[type="number"],
+        .form-wrapper input[type="file"] {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 6px;
+            margin-top: 5px;
+        }
 
-* {
-    box-sizing: border-box;
-}
+        .form-wrapper img {
+            margin-top: 10px;
+            border-radius: 8px;
+        }
+
+        .form-buttons {
+            margin-top: 20px;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .form-buttons .edit-btn,
+        .form-buttons .delete-btn {
+            padding: 10px 20px;
+            font-size: 1em;
+            border: none;
+            border-radius: 6px;
+            text-decoration: none;
+            color: white;
+            cursor: pointer;
+        }
+
+        .edit-btn {
+            background-color: #4caf50;
+        }
+
+        .delete-btn {
+            background-color: #f44336;
+        }
+
+        .message {
+            color: red;
+            margin-top: 10px;
+            text-align: center;
+            font-weight: bold;
+        }
+
+        @media (max-width: 600px) {
+            .form-wrapper {
+                padding: 20px;
+                width: 90%;
+            }
+        }
