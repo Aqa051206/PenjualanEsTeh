@@ -51,10 +51,9 @@ Nama	GitHub Profile
 Yumna Anky Prita	🌐 yumnaknyprita
 Aditya Surya Nugrahaeni	🌐 adityasuryanugrahaeni
 🚀 Cara Menjalankan Proyek
-Clone repositori ke lokal:
-git clone https://github.com/Aqa051206/PenjualanEsTeh/
+Clone repositori ke lokal:git clone https://github.com/Aqa051206/PenjualanEsTeh/
 Jalankan XAMPP, dan letakkan file di dalam folder htdocs.
-Import database ke phpMyAdmin.
+Import database ke phpMyAdmin
 Buka http://localhost/PenjualanEsTeh/ ,melalui browser.
 Login menggunakan akun yang telah dibuat atau register jika tersedia.
 💡 Deskripsi Singkat
