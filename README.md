@@ -1,40 +1,60 @@
-🌟 UAS Kelompok 4-Website Penjualan Es Teh Aya🌟
-📂 Daftar Isi Folder
-Dokumen UAS 📄📘📙📗📕
+🌟 UAS Kelompok 9 - Website Penjualan Es teh Aya 🌟
 
-Folder Query 📁
-🔧 pengguna.php
-Folder Gambar 📁
-🔧 File Gambar
-Folder js 📁
-🔧 script.js
-Folder Vendor 📁
-🔧 composer
-🔧 phpmailer
-🔧 autoload.php
-Folder Coding 📁
-🔧 fitur fitur website
-Tech Stack
-Documentation
-For detailed documentation, refer to the files linked below (written in Indonesian):
+Struktur Proyek
+Repositori ini berisi file dan folder utama yang digunakan dalam pengembangan aplikasi penjualan telur berbasis web.
 
-📘 Fitur Website
-📘 Database
-🤝 Contributors
-Contributor	GitHub Profile
-M.Awaudin ilhaqqi🌐 Aqa051206 
-Yumna Anky Prita🌐 yumnaankyprita
-Aditya SUrya Nugrahaeni🌐 adityasuryanugraheni
+📂 Direktori & File
+📁 Query/
+Berisi file query database seperti pengguna.php.
 
-📝 Deskripsi
-This repository is the collaborative work of Kelompok 9 for the UAS Project. It includes:
+📁 gambar/
+Folder untuk menyimpan file gambar produk.
 
-📌 Initial project documentation.
-📌 Database features.
-We hope this repository provides a clear understanding of our project. 😊
+📁 js/
+Folder untuk menyimpan script JavaScript (script.js).
 
-🚀 How to Use
-Clone this repository locally:
-git clone https://github.com/Aqa051206/PenjualanEsTeh
-Open the document files in the "Dokumen UAS" folder.
-Follow the system usage manual for further information.
+📁 vendor/
+Folder autoload Composer yang berisi dependency seperti phpmailer/.
+
+📄 File PHP (Frontend & Backend):
+
+beranda.php, index.php, dashboard.php, dll.
+Manajemen produk: tambah-produk.php, edit-produk.php, manajemen_produk.php
+Sistem pembayaran: pembayaran1.php, proses_pembayaran.php
+Autentikasi: login.php, logout.php, ganti_password.php, lupapassword.php , verifikasi_otp.php
+📄 File CSS:
+
+global.css, style.css, profile.css
+📄 File Lain:
+
+composer.json, composer.lock, README.md, LICENSE, dll.
+🛠️ Bahasa yang Digunakan
+Frontend: HTML, CSS, JavaScript
+Backend: PHP (Native)
+Database: MySQL
+Library: PHPMailer (melalui Composer)
+📖 Dokumentasi
+Dokumentasi sistem tersedia dalam bentuk file dan folder berikut:
+
+Struktur Database → database.php
+Desain Halaman → File *.php dan *.css
+Query & Proses → Query/, proses_beli.php, dll
+🧑‍🤝‍🧑 Kontributor
+Nama	GitHub Profile
+Pandu Sagalang	🌐 PanduSagalang
+Amelia Candra	🌐 AmeliaCandra21
+🚀 Cara Menjalankan Proyek
+Clone repositori ke lokal:
+git clone https://github.com/BimoET/Proyek_Penjualan_Telur.git
+Jalankan XAMPP, dan letakkan file di dalam folder htdocs.
+Import database ke phpMyAdmin.
+Buka http://localhost/Proyek_Penjualan_Telur melalui browser.
+Login menggunakan akun yang telah dibuat atau register jika tersedia.
+💡 Deskripsi Singkat
+Repositori ini merupakan hasil proyek Ujian Akhir Semester dari Kelompok 1. Aplikasi ini dirancang untuk mengelola sistem penjualan telur secara digital, termasuk fitur:
+
+Manajemen produk dan keranjang
+Sistem checkout
+Otentikasi pengguna
+Dashboard admin dan pelanggan
+ 
