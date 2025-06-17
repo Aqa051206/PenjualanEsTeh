@@ -1,10 +1,6 @@
 🌟 UAS Kelompok 4-Website Penjualan Es Teh Aya🌟
 📂 Daftar Isi Folder
-Dokumen UAS 📄
-📘
-📙
-📗
-📕
+Dokumen UAS 📄📘📙📗📕
 
 Folder Query 📁
 🔧 pengguna.php
