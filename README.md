@@ -4,6 +4,7 @@ Struktur Proyek
 Repositori ini berisi file dan folder utama yang digunakan dalam pengembangan aplikasi penjualan telur berbasis web.
 
 📂 Direktori & File
+
 📁 Query/
 Berisi file query database seperti pengguna.php.
 
@@ -17,28 +18,29 @@ Folder untuk menyimpan script JavaScript (script.js).
 Folder autoload Composer yang berisi dependency seperti phpmailer/.
 
 📄 File PHP (Frontend & Backend):
-
 beranda.php, index.php, dashboard.php, dll.
 Manajemen produk: tambah-produk.php, edit-produk.php, manajemen_produk.php
 Sistem pembayaran: pembayaran1.php, proses_pembayaran.php
 Autentikasi: login.php, logout.php, ganti_password.php, lupapassword.php , verifikasi_otp.php
+
 📄 File CSS:
-
 global.css, style.css, profile.css
-📄 File Lain:
 
+📄 File Lain:
 composer.json, composer.lock, README.md, LICENSE, dll.
 🛠️ Bahasa yang Digunakan
 Frontend: HTML, CSS, JavaScript
 Backend: PHP (Native)
 Database: MySQL
 Library: PHPMailer (melalui Composer)
+
 📖 Dokumentasi
 Dokumentasi sistem tersedia dalam bentuk file dan folder berikut:
 
 Struktur Database → database.php
 Desain Halaman → File *.php dan *.css
 Query & Proses → Query/, proses_beli.php, dll
+
 🧑‍🤝‍🧑 Kontributor
 Nama	GitHub Profile
 Pandu Sagalang	🌐 PanduSagalang
