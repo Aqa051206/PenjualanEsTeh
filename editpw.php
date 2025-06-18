@@ -18,7 +18,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             $email = $_SESSION['email_reset'];
             $password = $new_password; 
 
-            $conn = new mysqli("sql210.infinityfree.com", "if0_39243975", "yQHo1wIY0uwxsch", "if0_39243975_db_esteh");
+            $conn = new mysqli("host", "user", "passwd", "name");
 
             if ($conn->connect_error) {
                 die("Koneksi gagal: " . $conn->connect_error);
