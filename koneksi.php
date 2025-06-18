@@ -1,10 +1,10 @@
 <?php
 class Database {
-    private $host = "sql210.infinityfree.com";
-    private $user = "if0_39243975";
-    private $passwd = "yQHo1wIY0uwxsch";
-    private $name = "if0_39243975_db_esteh";
-    private $port = 3306;
+    private $host = "host";
+    private $user = "user";
+    private $passwd = "passwd";
+    private $name = "name";
+    private $port = port;
 
     private $conn;
      public function connection() {
